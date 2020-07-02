@@ -24,6 +24,8 @@ A training data score of 78.47% and a testing data score of 80.21% was received.
 
 8. A classification report was then used to check the precision and recall for all three categorizations. Here it was discovered that the model is most accurately predicting FALSE POSITIVE, but the precision and recall scores for CANDIDATE and CONFIRMED planets were significantly lower. This is likely because the dataset is imbalanced. It includes twice as many FALSE POSITIVE records as CANDIDATE or CONFIRMED. Due to this finding, we attempted to balance the dataset.
 
-9. In order to balance the dataset, we duplicated the CANDIDATE and CONFIRMED records and appended them to the original dataset. This results in a near equal number of records for FALSE POSITIVE, CANDIDATE, and CONFIRMED cases.
+9. In order to balance the dataset, we created one Jupyter Notebook in which we duplicated the CANDIDATE and CONFIRMED records and appended them to the original dataset. Then, we created another Jupyter Notebook in which we split the amount of FALSE POSITIVE records in half. This results in a near equal number of records for FALSE POSITIVE, CANDIDATE, and CONFIRMED cases to be used to train and test in both notebooks.
 
-10. Steps 6-8 were completed using the new balanced dataset.
+10. Steps 6-8 were completed using the new balanced datasets.
+
+>> The scores for CANDIDATE and CONFIRMED records actually decreased in both "balanced" workbooks. This suggests the original dataset was indeed the best set on which to build a model.
