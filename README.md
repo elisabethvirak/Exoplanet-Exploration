@@ -1,4 +1,4 @@
-# machine-learning-challenge# Exoplanet Exploration
+# Exoplanet Exploration
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
 
